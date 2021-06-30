@@ -1,40 +1,29 @@
 # vacation
 
-創造社デザイン専門学校 情報セキュリティ管理者資格コース
+職業訓練校
 
-出席日数計算プログラムツールリポジトリ
+出席日数計算プログラムツール
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
- 
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
- 
-"hoge"が何かを簡潔に紹介する
+# 出席日数計算プログラムツール
+
+本ツールは授業予定日数の入力により
+下記情報を計算/表示をするツールとなります。
+
+* 予定授業時間
+* 必要出席時間
+* 欠席可能時間
+* 欠席可能日数
  
 # DEMO
  
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
- 
-# Features
- 
-"hoge"のセールスポイントや差別化などを説明する
- 
+"実行画面スクリーンショット"
+  
 # Requirement
- 
-"hoge"を動かすのに必要なライブラリなどを列挙する
- 
-* huga 3.5.2
-* hogehuga 1.0.2
- 
-# Installation
- 
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
-```bash
-pip install huga_package
-```
+  
+* python
  
 # Usage
  
@@ -42,27 +31,21 @@ DEMOの実行方法など、"hoge"の基本的な使い方を説明する
  
 ```bash
 git clone https://github.com/hoge/~
-cd examples
-python demo.py
+cd vacation
+python vacation.py
 ```
  
 # Note
- 
-注意点などがあれば書く
- 
+
+やむを得ない事情による欠席の際の、出席日数等の確認にご利用下さい。
+※1 訓練校毎に条件がございますので、そちらを確認の上のご利用をお願い致します。
+※2 本ツールは下記条件にて計算しております。
+* 出席すべき日数の8割を下回ると退校
+
 # Author
  
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
+* makoto kamimura
  
 # License
-ライセンスを明示する
- 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
+
+"vacation" is Confidential.
