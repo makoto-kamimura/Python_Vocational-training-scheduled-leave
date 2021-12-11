@@ -1,53 +1,30 @@
-# vacation
+# Python_Vocational-training-scheduled-leave
+当ツールは厚生労働省求職者支援訓練制度における職業訓練校受講の際に、
+出席日数等の所定日程の計算を補助するツールとなります。
+ご利用の際には、本README下部に記載している Note をお読みの上ご利用ください。
 
-職業訓練校
-
-出席日数計算プログラムツール
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-# 出席日数計算プログラムツール
-
-本ツールは授業予定日数の入力により
-下記情報を計算/表示をするツールとなります。
-
-* 予定授業時間
-* 必要出席時間
-* 欠席可能時間
-* 欠席可能日数
- 
 # DEMO
- 
-"実行画面スクリーンショット"
-  
-# Requirement
-  
-* python
- 
-# Usage
- 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
+※後程更新を予定
+* Demo  
+![Python_Vocational-training-scheduled-leave.gif](/README_img/Python_Vocational-training-scheduled-leave.gif)  
+* Document  
+![Python_Vocational-training-scheduled-leave.pdf](/README_img/Python_Vocational-training-scheduled-leave.pdf)  
+
+# Installation
+後程更新を予定
 ```bash
-git clone https://github.com/hoge/~
-cd vacation
-python vacation.py
+git clone https://github.com/makoto-kamimura/Python_Vocational-training-scheduled-leave.git
+cd Docker/
+docker-compose up -d --build
+docker-compose exec python3 bash
+python source/Vocational-training-scheduled-leave.py
+exit
 ```
- 
+
 # Note
+※1 訓練校毎に所定条件等がございますので、そちらをご確認の上のご利用をお願い致します。
+※2 本ツールは下記条件にて計算しておりますので、訓練校によっては所定条件と異なる場合がございますので予めご了承願います。
+* 出席すべき日数の8割を下回ると退校処分
 
-やむを得ない事情による欠席の際の、出席日数等の確認にご利用下さい。
-
-※1 訓練校毎に条件がございますので、そちらを確認の上のご利用をお願い致します。
-
-※2 本ツールは下記条件にて計算しております。
-* 出席すべき日数の8割を下回ると退校
-
-# Author
- 
-* makoto kamimura
- 
 # License
-
-"vacation" is Confidential.
+"Python_Vocational-training-scheduled-leave" is Confidential.
