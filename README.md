@@ -4,14 +4,10 @@
 ご利用の際には、本README下部に記載している Note をお読みの上ご利用ください。
 
 # DEMO
-※後程更新を予定
 * Demo  
-![Python_Vocational-training-scheduled-leave.gif](/README_img/Python_Vocational-training-scheduled-leave.gif)  
-* Document  
-![Python_Vocational-training-scheduled-leave.pdf](/README_img/Python_Vocational-training-scheduled-leave.pdf)  
+![Python_Vocational-training-scheduled-leave.gif](/README_img/Python_Vocational-training-scheduled-leave.gif)   
 
 # Installation
-後程更新を予定
 ```bash
 git clone https://github.com/makoto-kamimura/Python_Vocational-training-scheduled-leave.git
 cd Docker/
@@ -19,6 +15,7 @@ docker-compose up -d --build
 docker-compose exec python3 bash
 python source/Vocational-training-scheduled-leave.py
 exit
+docker-compose down
 ```
 
 # Note
